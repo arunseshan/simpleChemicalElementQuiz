@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
     
     func updateElement(){
-        answerLabel.text = "?"
+        answerLabel.text = "What is it called?"
         let elementName = elementList[currentElementIndex]
         let image = UIImage(named: elementName)
         imageView.image = image
